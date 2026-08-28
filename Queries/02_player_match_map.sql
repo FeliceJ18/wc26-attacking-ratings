@@ -1,0 +1,68 @@
+-- =====================================================================
+-- player_match_map  |  entity resolution: PlayerDB <-> players_external
+-- =====================================================================
+-- WHY THIS EXISTS
+-- players_external has no player_id -- names are its only key, and the two
+-- sources write names differently. name_key (see build_name_key.sql) solves
+-- 969 of 1039 by rule. This table holds the remaining 70, which needed
+-- judgment rather than rules.
+--
+-- WHAT THE RULES COULD NOT DO
+--   nicknames ............ MOHAMMAD ABUZRAIQ / Sharara   (no shared letters)
+--                          Alejandro ROMERO GAMARRA / Kaku
+--                          PEDRO MIGUEL / Ro-Ro,  Memphis DEPAY / Memphis
+--   dropped name parts ... Felix TORRES / Felix Torres Caicedo
+--   transliteration ...... MOSTAFA ZICO / Mostafa Ziko
+--                          Odiljon XAMROBEKOV / Odiljon Hamrobekov
+--   name-order swap ...... Baba RAHMAN / Abdul Rahman Baba
+--
+-- THE METHOD -- match on numbers, not names
+-- Both sources agree EXACTLY on team and appearance count (3288 = 3288) and
+-- to within a few minutes per player. So instead of comparing spellings,
+-- narrow the candidates by (team, appearances) and let minutes break ties.
+-- This is why it beats any string algorithm: it resolves Sharara, which
+-- shares no letters at all with Abuzraiq.
+--
+--   66 rows  auto   -- (team, appearances) left exactly one candidate,
+--                      minute gap 0-6 confirms it
+--    4 rows  manual -- two players tied on team AND appearances AND minutes,
+--                      so numbers could not separate them. Resolved by name:
+--                        Panama     Amir MURILLO   -> Michael Amir Murillo
+--                                   Andres ANDRADE -> Andres Andrade Cedeno
+--                        Cabo Verde DINEY BORGES   -> Diney
+--                                   PICO LOPES     -> Pico
+--                      NOTE: automatic pairing got Panama BACKWARDS. Numbers
+--                      narrow the field; names break ties. Neither alone works.
+--
+-- VERIFIED AFTER BUILDING
+--   coverage ................... 1039 / 1039  (100 pct)
+--   external rows used twice ...    0
+--   team clashes ...............    0
+--   appearance mismatches ......    0   <- strongest check: every pair agrees
+--   assists reachable .......... 224 / 224
+-- =====================================================================
+
+-- CREATE TABLE player_match_map (
+--   player_id         TEXT PRIMARY KEY,
+--   external_name_key TEXT UNIQUE NOT NULL,
+--   db_name TEXT, external_name TEXT, team TEXT,
+--   apps INTEGER, minute_gap INTEGER, method TEXT
+-- );
+-- (built once; 70 rows. UNIQUE on external_name_key prevents pairing two
+--  PlayerDB players to the same external row.)
+
+-- =====================================================================
+-- HOW TO JOIN THE TWO SOURCES FROM NOW ON
+-- =====================================================================
+-- COALESCE picks the manual override when one exists, otherwise the rule
+-- based key. One join path covers all 1039 players.
+--
+--   FROM players d
+--   LEFT JOIN player_match_map m ON m.player_id = d.player_id
+--   LEFT JOIN players_external e
+--          ON e.name_key = COALESCE(m.external_name_key, d.name_key)
+--         AND e.minutes IS NOT NULL
+--
+-- Use LEFT JOIN, never JOIN: if a future data refresh breaks a match, a LEFT
+-- JOIN leaves NULLs you can spot, while an inner join silently deletes the
+-- player -- which is how entire squads disappear from a dashboard unnoticed.

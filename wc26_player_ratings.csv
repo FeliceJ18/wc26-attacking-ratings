@@ -1,0 +1,302 @@
+player,team,position,age,club,appearances,starts,minutes,goals,assists,take_ons,def_line_breaks,attacking_movement,pressing,output_rating,generation_rating,overall_rating
+Kylian MBAPPE,France,FW,27,Real Madrid,7,7,609,8,3,60,26,254,127,100.0,83.0,91.0
+Lionel MESSI,Argentina,FW,38,Inter Miami,8,7,740,8,4,61,36,124,171,94.0,76.0,85.0
+VINICIUS JUNIOR,Brazil,FW,25,Real Madrid,5,5,441,4,1,53,21,139,162,58.0,89.0,74.0
+Jude BELLINGHAM,England,MF,22,Real Madrid,7,7,606,6,1,28,20,313,200,64.0,68.0,66.0
+Ousmane DEMBELE,France,FW,29,PSG,7,7,551,5,2,17,26,85,225,69.0,62.0,66.0
+Michael OLISE,France,FW,24,Bayern Munich,7,7,561,0,5,41,26,153,214,49.0,78.0,63.0
+Anthony GORDON,England,FW,25,Barcelona,6,5,399,1,3,34,18,102,136,50.0,73.0,62.0
+Ismaila SARR,Senegal,FW,28,Crystal Palace,4,4,367,4,1,13,10,93,146,66.0,50.0,58.0
+Ruben VARGAS,Switzerland,FW,27,Sevilla,6,3,282,2,1,20,16,68,75,48.0,68.0,58.0
+Cody GAKPO,Netherlands,FW,27,Liverpool,4,4,371,3,1,15,18,69,120,53.0,60.0,56.0
+Lamine YAMAL,Spain,FW,18,Barcelona,8,7,615,1,0,86,36,139,120,10.0,100.0,55.0
+Charles DE KETELAERE,Belgium,FW,25,Atalanta,5,5,353,3,1,10,13,133,128,55.0,56.0,55.0
+MATHEUS CUNHA,Brazil,FW,27,Manchester Utd,5,4,293,3,0,14,11,112,117,47.0,61.0,54.0
+Florian WIRTZ,Germany,MF,23,Liverpool,4,4,363,0,3,25,15,109,105,41.0,65.0,53.0
+Malik TILLMAN,USA,MF,24,Leverkusen,5,4,356,2,1,22,18,65,90,42.0,63.0,53.0
+Martin ODEGAARD,Norway,MF,27,Arsenal,5,5,471,0,4,17,18,128,177,45.0,59.0,52.0
+Brahim DIAZ,Morocco,FW,26,Real Madrid,6,6,462,0,4,33,13,118,132,46.0,58.0,52.0
+BRUNO GUIMARAES,Brazil,MF,28,Newcastle,5,5,420,0,4,6,15,167,144,49.0,53.0,51.0
+Julian QUINONES,Mexico,FW,29,Al-Qadsiah,5,5,414,4,1,9,7,145,150,61.0,42.0,51.0
+Desire DOUE,France,FW,21,PSG,7,3,354,1,1,36,14,68,151,29.0,73.0,51.0
+Lautaro MARTINEZ,Argentina,FW,28,Inter,7,4,312,3,1,6,2,143,162,59.0,42.0,51.0
+Dani OLMO,Spain,FW,28,Barcelona,8,6,495,0,2,30,17,231,281,23.0,78.0,50.0
+Erling HAALAND,Norway,FW,25,Manchester City,5,5,465,7,0,8,4,64,103,78.0,23.0,50.0
+Bradley BARCOLA,France,FW,23,PSG,7,4,339,2,1,28,10,71,100,43.0,57.0,50.0
+Ferran TORRES,Spain,FW,26,Barcelona,8,1,283,1,1,11,12,196,83,34.0,66.0,50.0
+Jeremy DOKU,Belgium,FW,24,Manchester City,5,4,311,0,0,53,16,75,116,4.0,94.0,49.0
+Azzedine OUNAHI,Morocco,MF,26,Girona,6,5,438,2,0,29,17,120,182,25.0,69.0,47.0
+Ismael SAIBARI,Morocco,MF,25,PSV,5,5,385,3,0,11,8,219,164,39.0,55.0,47.0
+Ramin REZAEIAN,IR Iran,DF,36,Foolad,3,3,270,2,1,5,12,34,72,49.0,46.0,47.0
+Harry KANE,England,FW,32,Bayern Munich,7,7,654,6,1,9,11,87,240,61.0,32.0,46.0
+Mikel OYARZABAL,Spain,FW,29,Real Sociedad,8,8,606,5,1,8,4,245,256,55.0,37.0,46.0
+Folarin BALOGUN,USA,FW,24,Monaco,4,4,313,3,0,9,6,153,99,45.0,47.0,46.0
+Julio ENCISO,Paraguay,FW,22,Strasbourg,5,5,388,1,2,33,3,55,192,39.0,50.0,45.0
+Hannibal MEJBRI,Tunisia,MF,23,Burnley,3,3,270,0,2,11,11,67,108,34.0,56.0,45.0
+Alexander ISAK,Sweden,FW,26,Liverpool,4,4,359,1,3,7,5,114,95,54.0,35.0,44.0
+Ayase UEDA,Japan,FW,27,Feyenoord,4,4,325,2,1,4,4,147,164,44.0,44.0,44.0
+Leandro TROSSARD,Belgium,FW,31,Arsenal,6,6,510,2,2,17,11,133,156,42.0,44.0,43.0
+MOHAMED SALAH,Egypt,FW,33,Liverpool,5,5,428,1,2,20,9,125,141,37.0,48.0,43.0
+Kerim ALAJBEGOVIC,Bosnia and Herzegovina,FW,18,RB Salzburg,4,3,278,1,0,27,13,40,90,19.0,67.0,43.0
+Sadio MANE,Senegal,FW,34,Al-Nassr,4,4,364,0,1,30,14,110,113,16.0,67.0,42.0
+Yan DIOMANDE,Côte d'Ivoire,FW,19,RB Leipzig,4,4,332,0,1,32,15,40,101,17.0,68.0,42.0
+Raul JIMENEZ,Mexico,FW,35,Fulham,4,4,320,3,0,3,8,124,77,44.0,40.0,42.0
+Jamal MUSIALA,Germany,MF,23,Bayern Munich,4,3,271,1,0,24,9,106,88,20.0,64.0,42.0
+Roberto ALVARADO,Mexico,FW,27,Guadalajara,5,5,430,0,3,12,17,88,62,37.0,46.0,41.0
+Jonathan DAVID,Canada,FW,26,Juventus,5,5,421,3,0,2,10,134,206,37.0,45.0,41.0
+Kevin DE BRUYNE,Belgium,MF,34,Napoli,5,5,387,1,0,13,21,126,132,15.0,67.0,41.0
+MOSTAFA ZICO,Egypt,MF,29,,5,5,375,2,1,4,7,119,161,40.0,41.0,41.0
+Alex BAENA,Spain,MF,24,Atlético Madrid,7,7,488,1,1,14,18,202,127,23.0,57.0,40.0
+BRUNO FERNANDES,Portugal,MF,31,Manchester Utd,5,5,422,0,1,8,20,126,227,14.0,66.0,40.0
+Petar SUCIC,Croatia,MF,22,Inter,4,3,288,1,1,11,5,97,127,33.0,47.0,40.0
+Yoane WISSA,Congo DR,FW,29,Newcastle,4,4,360,3,0,8,5,102,113,41.0,36.0,39.0
+Breel EMBOLO,Switzerland,FW,29,Rennes,6,6,503,2,2,5,8,142,152,43.0,34.0,38.0
+Dan NDOYE,Switzerland,FW,25,Nottingham,6,5,412,2,0,22,10,99,121,26.0,49.0,38.0
+Antonio NUSA,Norway,FW,21,RB Leipzig,6,4,319,1,0,38,6,45,96,18.0,58.0,38.0
+Hans VANAKEN,Belgium,MF,33,Club Brugge,6,3,318,1,2,3,2,85,137,45.0,31.0,38.0
+Arda GULER,Türkiye,FW,21,Real Madrid,3,3,270,1,0,20,9,94,55,20.0,56.0,38.0
+Chris WOOD,New Zealand,FW,34,Nottingham,3,3,270,0,2,2,8,90,83,34.0,42.0,38.0
+LEE Kangin,Korea Republic,MF,25,PSG,3,3,270,0,1,15,12,44,77,20.0,55.0,38.0
+Luis DIAZ,Colombia,FW,29,Bayern Munich,5,5,480,1,1,20,14,176,92,23.0,51.0,37.0
+Viktor GYOKERES,Sweden,FW,28,Arsenal,4,4,360,1,2,4,8,94,71,41.0,34.0,37.0
+Kai HAVERTZ,Germany,FW,27,Arsenal,4,4,355,3,0,8,2,140,85,42.0,32.0,37.0
+Keito NAKAMURA,Japan,MF,25,Reims,4,4,310,1,1,10,10,59,69,32.0,43.0,37.0
+Ibrahim MAZA,Algeria,MF,20,Leverkusen,4,4,352,0,0,26,13,130,139,4.0,69.0,36.0
+Felix NMECHA,Germany,MF,25,Dortmund,4,4,272,1,1,14,4,55,53,34.0,37.0,36.0
+NOOR ALRAWABDEH,Jordan,MF,29,,3,3,270,0,1,8,10,20,160,20.0,52.0,36.0
+Weston McKENNIE,USA,MF,27,Juventus,5,5,446,0,0,12,27,161,81,2.0,67.0,35.0
+NUNO MENDES,Portugal,DF,23,PSG,5,5,398,1,0,26,17,52,62,15.0,56.0,35.0
+Noni MADUEKE,England,FW,24,Arsenal,5,4,288,0,0,22,14,87,64,5.0,65.0,35.0
+Alex FREEMAN,USA,DF,21,Villarreal,5,4,373,1,1,25,9,12,44,28.0,39.0,34.0
+EMAM ASHOUR,Egypt,MF,28,,5,5,366,2,0,18,7,77,60,28.0,39.0,34.0
+Gonzalo PLATA,Ecuador,FW,25,Flamengo,4,4,360,1,0,23,8,85,124,16.0,51.0,34.0
+Marcel SABITZER,Austria,MF,32,Dortmund,4,4,360,1,0,6,16,60,127,16.0,51.0,34.0
+PEDRO NETO,Portugal,FW,26,Chelsea,5,5,352,0,1,20,11,91,78,16.0,52.0,34.0
+Leroy SANE,Germany,MF,30,Galatasaray,4,4,328,1,0,24,9,65,69,17.0,51.0,34.0
+Fabian RUIZ,Spain,MF,30,PSG,8,4,321,1,0,8,12,130,72,18.0,51.0,34.0
+Sergino DEST,USA,DF,25,PSV,5,4,299,0,0,20,14,82,88,5.0,64.0,34.0
+Nathaniel BROWN,Germany,DF,22,Frankfurt,3,3,283,1,1,7,6,78,43,34.0,35.0,34.0
+ALI OLWAN,Jordan,FW,26,,3,3,270,1,0,16,4,42,147,20.0,48.0,34.0
+Martin BATURINA,Croatia,MF,23,Como,4,4,324,1,0,16,8,72,111,17.0,48.0,33.0
+Achraf HAKIMI,Morocco,DF,27,PSG,6,6,570,1,2,34,7,110,63,30.0,35.0,32.0
+Denzel DUMFRIES,Netherlands,DF,30,Inter,4,4,390,0,2,7,13,42,66,27.0,37.0,32.0
+Franck KESSIE,Côte d'Ivoire,MF,29,Al-Ahli,4,4,347,1,0,5,13,66,122,17.0,47.0,32.0
+OMAR MARMOUSH,Egypt,FW,27,Manchester City,5,3,326,0,0,18,12,118,98,4.0,60.0,32.0
+Fabian RIEDER,Switzerland,MF,24,Augsburg,5,3,303,0,0,8,10,114,180,5.0,59.0,32.0
+Enzo FERNANDEZ,Argentina,MF,25,Chelsea,7,7,663,2,0,16,21,127,176,18.0,45.0,31.0
+PEDRI,Spain,MF,23,Barcelona,8,5,500,0,0,20,16,151,219,2.0,60.0,31.0
+Ivan PERISIC,Croatia,FW,37,PSV,4,4,360,1,1,5,9,69,75,29.0,34.0,31.0
+Daichi KAMADA,Japan,MF,29,Crystal Palace,4,4,331,2,0,3,6,77,94,30.0,33.0,31.0
+Connor METCALFE,Australia,MF,26,St Pauli,4,3,315,1,0,3,7,75,169,18.0,43.0,31.0
+Rayan AIT-NOURI,Algeria,DF,25,Manchester City,4,3,284,0,0,34,7,49,45,5.0,56.0,31.0
+Bilal EL KHANNOUSS,Morocco,MF,22,Stuttgart,6,6,466,0,0,18,23,65,108,2.0,57.0,30.0
+CRISTIANO RONALDO,Portugal,FW,41,Al-Nassr,5,5,441,3,0,2,4,150,66,36.0,24.0,30.0
+Nicolas RASKIN,Belgium,MF,25,Rangers,6,3,340,0,2,3,8,36,77,30.0,30.0,30.0
+Eldor SHOMURODOV,Uzbekistan,FW,30,Başakşehir,3,3,270,1,0,9,4,84,85,20.0,39.0,30.0
+Kaishu SANO,Japan,MF,25,Mainz 05,3,3,270,1,1,5,1,38,94,34.0,26.0,30.0
+Matias GALARZA,Paraguay,MF,24,Atlanta Utd,4,4,390,1,1,8,6,41,136,27.0,32.0,29.0
+Yasin AYARI,Sweden,MF,22,Brighton,4,4,341,2,0,11,2,68,78,30.0,28.0,29.0
+JOAO CANCELO,Portugal,DF,32,Barcelona,5,5,314,0,1,12,9,53,53,18.0,40.0,29.0
+Vladimir COUFAL,Czechia,DF,33,Hoffenheim,3,3,270,0,1,3,10,45,39,20.0,37.0,29.0
+Youri TIELEMANS,Belgium,MF,29,Aston Villa,5,5,475,2,0,7,10,109,96,23.0,33.0,28.0
+MARAWAN ATTIA,Egypt,MF,27,,5,4,435,0,1,4,15,45,153,14.0,42.0,28.0
+Stephen EUSTAQUIO,Canada,MF,29,Porto,5,4,392,1,0,5,15,67,76,15.0,41.0,28.0
+JOAO NEVES,Portugal,MF,21,PSG,5,4,391,1,0,6,9,88,164,15.0,42.0,28.0
+Jhon ARIAS,Colombia,MF,28,Palmeiras,5,5,382,1,0,21,7,70,80,15.0,41.0,28.0
+Konrad LAIMER,Austria,MF,29,Bayern Munich,4,4,360,0,1,7,8,88,117,16.0,39.0,28.0
+Ryan GRAVENBERCH,Netherlands,MF,24,Liverpool,4,4,347,0,2,12,3,69,39,29.0,26.0,28.0
+RAYAN,Brazil,FW,19,Bournemouth,4,3,289,0,1,9,5,38,102,19.0,36.0,28.0
+Amir MURILLO,Panama,DF,30,Beşiktaş,3,3,270,0,0,14,12,39,53,5.0,52.0,28.0
+Daniel MUNOZ,Colombia,DF,30,Crystal Palace,5,4,393,2,0,2,5,141,44,27.0,26.0,27.0
+Joshua KIMMICH,Germany,DF,31,Bayern Munich,4,4,353,0,2,3,9,12,46,29.0,26.0,27.0
+Luis SUAREZ,Colombia,FW,28,Sporting CP,5,3,333,0,1,6,2,176,91,17.0,36.0,27.0
+James RODRIGUEZ,Colombia,MF,34,Minnesota Utd,5,5,317,0,0,3,14,48,138,4.0,50.0,27.0
+Djed SPENCE,England,DF,25,Tottenham,7,3,313,0,0,14,12,39,87,4.0,50.0,27.0
+Ritsu DOAN,Japan,MF,27,Frankfurt,4,4,281,0,1,4,5,54,95,19.0,34.0,27.0
+Patrick BERG,Norway,MF,28,Bodø/Glimt,6,4,444,0,2,11,1,91,141,25.0,26.0,26.0
+Pedro VITE,Ecuador,MF,24,UNAM,4,4,360,0,1,5,9,66,90,16.0,35.0,26.0
+Antonee ROBINSON,USA,DF,28,Fulham,4,4,350,0,0,20,13,55,48,4.0,49.0,26.0
+RYAN MENDES,Cabo Verde,FW,36,,4,4,332,0,1,11,4,75,88,17.0,34.0,26.0
+SIDNY LOPES CABRAL,Cabo Verde,DF,23,Benfica,3,3,286,1,0,16,3,24,68,19.0,33.0,26.0
+MERCHAS DOSKI,Iraq,DF,26,Viktoria Plzeň,3,3,270,0,0,9,13,26,40,5.0,47.0,26.0
+Pedro PORRO,Spain,DF,26,Tottenham,6,6,564,2,0,6,17,71,61,20.0,31.0,25.0
+Ricardo RODRIGUEZ,Switzerland,DF,33,Real Betis,6,6,525,0,1,4,24,46,44,12.0,39.0,25.0
+Tajon BUCHANAN,Canada,FW,27,Villarreal,5,5,381,0,0,23,9,62,104,3.0,47.0,25.0
+Arthur MASUAKU,Congo DR,DF,32,Lens,4,4,319,0,1,10,6,9,92,18.0,32.0,25.0
+Luka MODRIC,Croatia,MF,40,Milan,4,4,319,0,1,5,9,45,36,18.0,32.0,25.0
+Miguel ALMIRON,Paraguay,MF,32,Atlanta Utd,4,4,288,0,0,18,6,32,102,5.0,45.0,25.0
+Mateo KOVACIC,Croatia,MF,32,Manchester City,4,3,272,0,1,9,3,17,79,20.0,30.0,25.0
+Teboho MOKOENA,South Africa,MF,29,Sundowns,3,3,270,1,0,2,6,31,73,20.0,31.0,25.0
+Adrien RABIOT,France,MF,31,Milan,6,6,495,0,1,14,11,95,82,12.0,35.0,24.0
+Fares CHAIBI,Algeria,MF,23,Frankfurt,4,4,360,0,0,10,10,74,124,4.0,45.0,24.0
+Jordan BOS,Australia,DF,23,Feyenoord,4,4,309,0,0,19,8,35,63,4.0,44.0,24.0
+Ghislain KONAN,Côte d'Ivoire,DF,30,Gil Vicente FC,3,3,270,0,0,13,9,21,55,5.0,43.0,24.0
+Rodrigo DE PAUL,Argentina,MF,32,Inter Miami,7,6,495,0,1,10,9,93,147,12.0,35.0,23.0
+Aiden ONEILL,Australia,MF,27,NYCFC,4,4,360,0,0,10,12,41,90,4.0,42.0,23.0
+Josip STANISIC,Croatia,DF,26,Bayern Munich,4,4,360,0,1,3,9,49,58,16.0,29.0,23.0
+John YEBOAH,Ecuador,FW,25,Venezia,4,4,315,0,0,15,9,55,53,4.0,43.0,23.0
+Julian ALVAREZ,Argentina,FW,26,Atlético Madrid,8,5,601,1,0,9,4,189,248,10.0,34.0,22.0
+Granit XHAKA,Switzerland,MF,33,Sunderland,6,6,600,1,0,14,15,82,98,10.0,33.0,22.0
+Richie LARYEA,Canada,DF,31,Toronto FC,5,5,431,0,0,15,15,54,51,3.0,41.0,22.0
+Piero HINCAPIE,Ecuador,DF,24,Arsenal,4,4,341,0,0,7,13,47,51,4.0,40.0,22.0
+Elliot ANDERSON,England,MF,23,Nottingham,7,7,623,0,1,9,17,60,124,10.0,32.0,21.0
+Declan RICE,England,MF,27,Arsenal,6,6,470,0,1,7,10,65,77,13.0,28.0,21.0
+CASEMIRO,Brazil,MF,34,Manchester Utd,5,5,380,1,0,5,8,24,77,15.0,27.0,21.0
+Antoine SEMENYO,Ghana,MF,26,Manchester City,4,4,360,0,0,18,5,57,103,4.0,38.0,21.0
+Rafik BELGHALI,Algeria,DF,24,Hellas Verona,4,4,333,1,0,8,3,64,54,17.0,26.0,21.0
+Jordan AYEW,Ghana,FW,34,Leicester City,4,4,304,0,0,3,3,65,193,5.0,38.0,21.0
+Guela DOUE,Côte d'Ivoire,DF,23,Strasbourg,4,3,278,0,0,5,9,39,59,5.0,38.0,21.0
+Leandro BACUNA,Curaçao,MF,34,,3,3,270,0,0,11,4,31,93,5.0,36.0,21.0
+Martin EXPERIENCE,Haiti,DF,27,Nancy,3,3,270,0,0,8,6,52,65,5.0,37.0,21.0
+Marc CUCURELLA,Spain,DF,27,Chelsea,8,8,750,0,2,6,13,175,87,16.0,24.0,20.0
+Gustavo PUERTA,Colombia,DF,22,Racing Sant,5,5,470,0,1,9,4,100,117,13.0,27.0,20.0
+Alistair JOHNSTON,Canada,DF,27,Celtic,5,5,450,0,0,7,17,63,36,2.0,37.0,20.0
+Juan Jose CACERES,Paraguay,DF,26,Dynamo Moskva,5,5,440,0,0,11,13,22,113,3.0,37.0,20.0
+VITINHA,Portugal,MF,26,PSG,5,5,381,0,0,15,7,46,111,3.0,37.0,20.0
+Moises CAICEDO,Ecuador,MF,24,Chelsea,4,4,360,0,0,4,13,39,55,4.0,36.0,20.0
+Stefan POSCH,Austria,DF,29,Mainz 05,4,4,333,0,0,3,11,37,74,4.0,36.0,20.0
+David ALABA,Austria,DF,33,Real Madrid,4,4,279,0,1,3,5,4,19,19.0,20.0,20.0
+Marko STAMENIC,New Zealand,MF,24,Swansea City,3,3,270,0,0,5,9,17,49,5.0,35.0,20.0
+Mathias OLIVERA,Uruguay,DF,28,Napoli,3,3,270,0,0,15,6,11,24,5.0,34.0,20.0
+MOHAMED HANY,Egypt,DF,30,,5,5,480,0,1,8,9,53,79,13.0,26.0,19.0
+Timothy CASTAGNE,Belgium,DF,30,Fulham,6,5,478,0,1,3,8,73,103,13.0,25.0,19.0
+David MOLLER WOLFE,Norway,DF,24,Wolves,5,5,433,0,1,8,7,59,48,14.0,24.0,19.0
+Jesus GALLARDO,Mexico,DF,31,Toluca,5,4,372,0,0,9,11,40,50,3.0,35.0,19.0
+Denis ZAKARIA,Switzerland,MF,29,Monaco,4,4,360,0,0,12,10,29,40,4.0,34.0,19.0
+Ermedin DEMIROVIC,Bosnia and Herzegovina,FW,28,Stuttgart,4,4,355,0,0,5,5,92,116,4.0,34.0,19.0
+Jorge SANCHEZ,Mexico,DF,28,PAOK,4,4,349,0,1,8,1,59,66,17.0,22.0,19.0
+Alexander SORLOTH,Norway,FW,30,Atlético Madrid,5,5,341,0,0,14,5,72,62,4.0,34.0,19.0
+Sead KOLASINAC,Bosnia and Herzegovina,DF,32,Atalanta,4,4,339,0,1,5,5,27,32,17.0,21.0,19.0
+Ali ABDI,Tunisia,DF,32,Nice,3,3,270,0,0,5,5,49,78,5.0,34.0,19.0
+Amar DEDIC,Bosnia and Herzegovina,DF,23,Benfica,3,3,270,0,0,15,1,23,84,5.0,32.0,19.0
+Aaron WAN-BISSAKA,Congo DR,DF,28,West Ham,4,4,355,0,0,10,5,64,90,4.0,32.0,18.0
+Diego GOMEZ,Paraguay,MF,23,Brighton,4,4,308,0,0,7,4,29,110,4.0,31.0,18.0
+Facundo MEDINA,Argentina,DF,27,Marseille,5,3,308,0,1,0,2,49,48,18.0,17.0,18.0
+JAMIRO MONTEIRO,Cabo Verde,MF,32,Zwolle,4,3,283,0,0,7,3,48,87,5.0,31.0,18.0
+Rodrigo BENTANCUR,Uruguay,MF,28,Tottenham,3,3,270,0,0,9,2,65,67,5.0,31.0,18.0
+Scott McTOMINAY,Scotland,MF,29,Napoli,3,3,270,0,0,7,1,59,97,5.0,30.0,18.0
+Chancel MBEMBA,Congo DR,DF,31,Lille,4,4,360,0,1,5,7,2,11,16.0,19.0,17.0
+KEVIN PINA,Cabo Verde,MF,29,Krasnodar,4,4,351,1,0,6,1,23,70,16.0,17.0,17.0
+Aubrey MODIBA,South Africa,DF,30,Sundowns,4,4,347,0,0,6,9,32,53,4.0,31.0,17.0
+Erik LIRA,Mexico,MF,26,Cruz Azul,4,4,346,0,1,4,2,42,55,17.0,18.0,17.0
+Samuel MOUTOUSSAMY,Congo DR,MF,29,Atromitos,4,4,333,0,0,4,6,58,83,4.0,30.0,17.0
+Reece JAMES,England,DF,26,Chelsea,4,3,311,0,0,2,8,44,48,4.0,30.0,17.0
+Finn SURMAN,New Zealand,DF,22,Portland Timbers,3,3,270,1,0,5,1,0,17,20.0,14.0,17.0
+Guillermo VARELA,Uruguay,DF,33,Flamengo,3,3,270,0,0,2,8,36,15,5.0,29.0,17.0
+Ladislav KREJCI,Czechia,DF,27,Wolves,3,3,270,1,0,1,2,5,20,20.0,13.0,17.0
+Alexis MAC ALLISTER,Argentina,MF,27,Liverpool,8,7,749,1,1,5,3,123,202,16.0,17.0,16.0
+RODRI,Spain,MF,29,Manchester City,8,8,726,0,0,12,21,87,73,0.0,31.0,16.0
+Virgil VAN DIJK,Netherlands,DF,34,Liverpool,4,4,390,1,1,3,1,0,7,27.0,5.0,16.0
+Idrissa Gana GUEYE,Senegal,MF,36,Everton,4,4,364,0,0,5,8,36,68,4.0,29.0,16.0
+Khuliso MUDAU,South Africa,DF,31,Sundowns,4,4,360,0,0,11,5,34,66,4.0,28.0,16.0
+MOHANAD LASHIN,Egypt,MF,30,,4,4,360,0,0,4,7,9,114,4.0,28.0,16.0
+Fredrik AURSNES,Norway,MF,30,Benfica,6,3,302,0,0,4,5,69,43,5.0,28.0,16.0
+Marvin SENAYA,Ghana,DF,25,Auxerre,4,4,280,0,0,5,4,19,65,5.0,26.0,16.0
+Lewis FERGUSON,Scotland,MF,26,Bologna,3,3,270,0,0,4,3,50,59,5.0,27.0,16.0
+PEDRO MIGUEL,Qatar,DF,35,,3,3,270,0,0,3,7,9,28,5.0,26.0,16.0
+Thomas PARTEY,Ghana,MF,33,Villarreal,3,3,270,0,0,10,4,7,38,5.0,27.0,16.0
+Lisandro MARTINEZ,Argentina,DF,28,Manchester Utd,7,7,626,1,1,10,9,2,18,18.0,12.0,15.0
+Nico OREILLY,England,DF,21,Manchester City,7,5,461,0,0,11,6,63,94,2.0,27.0,15.0
+Jan Paul VAN HECKE,Netherlands,DF,26,Brighton,4,4,390,1,0,3,5,2,39,15.0,15.0,15.0
+Enner VALENCIA,Ecuador,FW,36,Pachuca,4,4,290,0,0,4,1,76,80,5.0,26.0,15.0
+BOUALEM KHOUKHI,Qatar,DF,35,,3,3,270,0,0,2,8,6,9,5.0,25.0,15.0
+SAUD ABDULHAMID,Saudi Arabia,DF,26,Lens,3,3,270,0,0,5,3,28,58,5.0,25.0,15.0
+Leandro PAREDES,Argentina,MF,31,Boca Juniors,7,4,473,0,0,17,8,20,44,2.0,25.0,14.0
+Maxim DE CUYPER,Belgium,DF,25,Brighton,6,5,443,0,0,5,9,59,58,2.0,26.0,14.0
+Alessandro CIRCATI,Australia,DF,22,Parma,4,4,390,0,0,8,10,7,20,3.0,25.0,14.0
+Junior ALONSO,Paraguay,DF,33,Atlético Mineiro,5,4,390,0,0,2,7,3,124,3.0,25.0,14.0
+Manu KONE,France,MF,25,Roma,5,4,386,0,0,14,3,25,68,3.0,24.0,14.0
+Ayyoub BOUADDI,Morocco,MF,18,Lille,5,5,384,0,0,14,1,56,77,3.0,24.0,14.0
+Aurelien TCHOUAMENI,France,MF,26,Real Madrid,4,4,360,0,1,1,1,33,48,16.0,12.0,14.0
+Hiroki ITO,Japan,DF,27,Bayern Munich,4,4,360,0,0,2,11,13,20,4.0,25.0,14.0
+Mbekezeli MBOKAZI,South Africa,DF,20,Chicago Fire,4,4,360,0,0,10,7,6,33,4.0,25.0,14.0
+Chadi RIAD,Morocco,DF,22,Crystal Palace,4,4,346,0,1,7,1,2,18,17.0,11.0,14.0
+Gabriel GUDMUNDSSON,Sweden,DF,27,Leeds United,4,4,333,0,0,4,7,10,44,4.0,24.0,14.0
+Frenkie DE JONG,Netherlands,MF,29,Barcelona,4,4,331,0,0,7,5,15,63,4.0,25.0,14.0
+Aleksandar PAVLOVIC,Germany,MF,22,Bayern Munich,4,4,274,0,0,5,1,42,56,5.0,22.0,14.0
+Andres ANDRADE,Panama,DF,27,LASK,3,3,270,0,0,0,7,9,19,5.0,23.0,14.0
+Jerome OPOKU,Ghana,DF,27,Başakşehir,3,3,270,0,0,2,7,1,3,5.0,22.0,14.0
+Sherel FLORANUS,Curaçao,DF,27,Zwolle,3,3,270,0,0,2,3,14,70,5.0,23.0,14.0
+Jules KOUNDE,France,DF,27,Barcelona,7,7,602,0,0,10,7,119,106,1.0,24.0,13.0
+Remo FREULER,Switzerland,MF,34,Bologna,6,6,594,0,0,5,7,116,162,1.0,26.0,13.0
+Lucas DIGNE,France,DF,32,Aston Villa,5,5,420,0,0,3,8,50,48,3.0,23.0,13.0
+Krepin DIATTA,Senegal,DF,27,Monaco,4,4,390,0,0,17,4,22,31,3.0,24.0,13.0
+Ramy BENSEBAINI,Algeria,DF,31,Dortmund,4,4,360,0,0,6,8,1,25,4.0,22.0,13.0
+Tyler ADAMS,USA,MF,27,Bournemouth,4,4,342,0,0,4,6,22,44,4.0,22.0,13.0
+STEVEN MOREIRA,Cabo Verde,DF,31,Columbus Crew,4,3,300,0,0,4,3,17,70,5.0,22.0,13.0
+AKAM HASHIM,Iraq,DF,27,,3,3,270,0,0,10,3,2,9,5.0,21.0,13.0
+Ricardo ADE,Haiti,DF,36,LDU Quito,3,3,270,0,0,3,5,1,19,5.0,21.0,13.0
+Sebastian CACERES,Uruguay,DF,26,América,3,3,270,0,0,6,4,2,18,5.0,21.0,13.0
+Aymeric LAPORTE,Spain,DF,32,Athletic Club,8,8,729,0,1,17,12,7,30,8.0,16.0,12.0
+Nicolas TAGLIAFICO,Argentina,DF,33,Lyon,7,5,477,0,0,4,8,63,73,2.0,23.0,12.0
+Johan MOJICA,Colombia,DF,33,Mallorca,4,4,390,0,0,1,8,36,42,3.0,22.0,12.0
+Moussa NIAKHATE,Senegal,DF,30,Lyon,4,4,390,0,1,6,1,3,17,15.0,8.0,12.0
+Gideon MENSAH,Ghana,DF,27,Auxerre,4,4,360,0,0,3,6,15,45,4.0,20.0,12.0
+Nathan NGOY,Belgium,DF,23,Lille,4,4,336,0,0,12,4,0,15,4.0,20.0,12.0
+Nabil BENTALEB,Algeria,MF,31,Lille,4,3,288,0,0,5,3,16,30,5.0,20.0,12.0
+Jack HENDRY,Scotland,DF,31,Al-Ettifaq,3,3,270,0,0,8,2,3,11,5.0,18.0,12.0
+Nahuel MOLINA,Argentina,DF,28,Atlético Madrid,7,5,532,0,0,2,6,92,102,2.0,20.0,11.0
+DANILO,Brazil,DF,34,Flamengo,5,4,405,0,0,3,6,45,42,3.0,19.0,11.0
+DINEY BORGES,Cabo Verde,DF,31,,4,4,390,0,0,4,8,3,13,3.0,18.0,11.0
+PICO LOPES,Cabo Verde,DF,33,Shamrock,4,4,390,0,0,6,7,3,27,3.0,19.0,11.0
+Luc DE FOUGEROLLES,Canada,DF,20,Fulham,5,4,372,0,0,8,6,6,19,3.0,20.0,11.0
+Gustaf LAGERBIELKE,Sweden,DF,26,Braga,4,4,360,0,0,2,7,2,36,4.0,19.0,11.0
+Nicolas SEIWALD,Austria,MF,25,RB Leipzig,4,4,315,0,0,3,2,45,45,4.0,19.0,11.0
+Ali NEMATI,IR Iran,DF,30,Foolad,3,3,270,0,0,3,3,3,14,5.0,16.0,11.0
+LEE Gihyuk,Korea Republic,MF,25,Gangwon FC,3,3,270,0,0,4,3,0,15,5.0,17.0,11.0
+LEE Hanbeom,Korea Republic,DF,23,Midtjylland,3,3,270,0,0,3,3,6,19,5.0,17.0,11.0
+Marin PONGRACIC,Croatia,DF,28,Fiorentina,3,3,270,0,0,9,1,2,6,5.0,16.0,11.0
+YAZAN ALARAB,Jordan,DF,30,FC Seoul,3,3,270,0,0,8,1,3,12,5.0,16.0,11.0
+Davinson SANCHEZ,Colombia,DF,30,Galatasaray,5,5,480,0,0,8,10,0,14,2.0,19.0,10.0
+Jefferson LERMA,Colombia,MF,31,Crystal Palace,5,5,412,0,0,6,2,48,69,3.0,17.0,10.0
+Harry SOUTTAR,Australia,DF,27,Leicester City,4,4,390,0,0,3,8,3,12,3.0,17.0,10.0
+RUBEN DIAS,Portugal,DF,29,Manchester City,4,4,360,0,0,2,6,0,21,4.0,16.0,10.0
+Tim REAM,USA,DF,38,Charlotte,4,4,360,0,0,5,6,0,10,4.0,17.0,10.0
+Cesar MONTES,Mexico,DF,29,Loko Moscow,4,4,315,0,0,1,5,2,10,4.0,15.0,10.0
+Neil EL AYNAOUI,Morocco,MF,24,Roma,6,6,563,0,0,8,3,101,84,1.0,17.0,9.0
+Issa DIOP,Morocco,DF,29,Fulham,5,5,477,1,0,2,3,1,19,13.0,5.0,9.0
+Noussair MAZRAOUI,Morocco,DF,28,Manchester Utd,6,5,477,0,0,12,5,10,39,2.0,17.0,9.0
+GABRIEL MAGALHAES,Brazil,DF,28,Arsenal,5,5,450,0,1,2,2,3,15,13.0,5.0,9.0
+DOUGLAS SANTOS,Brazil,DF,32,Zenit,5,5,442,0,0,1,5,38,69,3.0,16.0,9.0
+Aissa MANDI,Algeria,DF,34,Lille,4,4,360,0,0,4,5,3,13,4.0,15.0,9.0
+Johan VASQUEZ,Mexico,DF,27,Genoa,4,4,360,0,0,6,4,6,8,4.0,14.0,9.0
+Josip SUTALO,Croatia,DF,26,Ajax,4,4,360,0,0,7,4,1,8,4.0,15.0,9.0
+Emmanuel AGBADOU,Côte d'Ivoire,DF,28,Beşiktaş,3,3,270,0,0,2,1,4,20,5.0,12.0,9.0
+Hannes DELCROIX,Haiti,DF,27,Lugano,3,3,270,0,0,1,2,0,12,5.0,12.0,9.0
+ISSA LAYE,Qatar,DF,28,,3,3,270,0,0,2,1,2,24,5.0,12.0,9.0
+Robin HRANAC,Czechia,DF,26,Hoffenheim,3,3,270,0,0,0,2,2,22,5.0,12.0,9.0
+Manuel AKANJI,Switzerland,DF,30,Inter,6,6,600,0,0,17,8,2,23,1.0,16.0,8.0
+Andres CUBAS,Paraguay,MF,30,Vancouver,5,5,480,0,0,1,1,13,174,2.0,15.0,8.0
+Sander BERGE,Norway,MF,28,Fulham,5,5,480,0,0,2,4,32,84,2.0,14.0,8.0
+YASSER IBRAHIM,Egypt,DF,33,,5,4,466,1,0,3,1,0,22,13.0,4.0,8.0
+RENATO VEIGA,Portugal,DF,22,Villarreal,5,5,450,0,0,8,4,2,34,2.0,13.0,8.0
+RAMY RABIA,Egypt,DF,33,,5,3,368,0,0,8,2,6,20,3.0,13.0,8.0
+Willian PACHO,Ecuador,DF,24,PSG,4,4,360,0,0,6,2,0,39,4.0,13.0,8.0
+Victor LINDELOF,Sweden,DF,31,Aston Villa,4,4,357,0,0,6,3,3,14,4.0,13.0,8.0
+Abdukodir KHUSANOV,Uzbekistan,DF,22,Manchester City,3,3,270,0,0,0,1,4,15,5.0,10.0,8.0
+Armando OBISPO,Curaçao,DF,27,PSV,3,3,270,0,0,2,1,2,15,5.0,11.0,8.0
+Jose CORDOBA,Panama,DF,25,Norwich City,3,3,270,0,0,2,1,1,9,5.0,11.0,8.0
+Shoja KHALILZADEH,IR Iran,DF,37,Tractor,3,3,270,0,0,1,1,0,14,5.0,10.0,8.0
+Nico ELVEDI,Switzerland,DF,29,Gladbach,6,6,600,0,0,23,2,3,36,1.0,13.0,7.0
+Marc GUEHI,England,DF,25,Manchester City,7,6,573,0,0,11,8,2,15,1.0,13.0,7.0
+Brandon MECHELE,Belgium,DF,33,Club Brugge,6,6,570,0,0,15,4,6,33,1.0,12.0,7.0
+Torbjorn HEGGEM,Norway,DF,27,Bologna,5,5,444,0,0,8,4,2,20,2.0,12.0,7.0
+Jonathan TAH,Germany,DF,30,Bayern Munich,4,4,373,0,0,4,3,3,18,3.0,11.0,7.0
+Ime OKON,South Africa,DF,22,Hannover 96,4,4,360,0,0,4,2,3,17,4.0,10.0,7.0
+Omar ALDERETE,Paraguay,DF,29,Sunderland,4,4,322,0,0,1,3,2,6,4.0,11.0,7.0
+Derek CORNELIUS,Canada,DF,28,Marseille,4,4,315,0,0,0,2,2,23,4.0,10.0,7.0
+Odilon KOSSOUNOU,Côte d'Ivoire,DF,25,Atalanta,4,3,271,0,0,1,1,1,9,5.0,10.0,7.0
+Cristian ROMERO,Argentina,DF,28,Tottenham,7,7,613,1,0,8,1,7,30,10.0,3.0,6.0
+Jhon LUCUMI,Colombia,DF,27,Bologna,5,5,479,0,0,4,6,0,17,2.0,11.0,6.0
+MARQUINHOS,Brazil,DF,32,PSG,5,5,450,0,0,1,4,3,33,2.0,9.0,6.0
+Chris RICHARDS,USA,DF,26,Crystal Palace,4,4,360,0,0,2,2,2,11,4.0,8.0,6.0
+John STONES,England,DF,32,Manchester City,5,3,330,0,0,3,1,2,14,4.0,9.0,6.0
+Nikola KATIC,Bosnia and Herzegovina,DF,29,Schalke 04,4,4,319,0,0,1,1,0,25,4.0,9.0,6.0
+Montassar TALBI,Tunisia,DF,28,Lorient,3,3,270,0,0,0,0,3,11,5.0,7.0,6.0
+Ezri KONSA,England,DF,28,Aston Villa,7,6,557,0,0,7,3,7,46,1.0,8.0,5.0
+Kristoffer AJER,Norway,DF,28,Brentford,5,5,480,0,0,12,1,4,21,2.0,9.0,5.0
+Axel TUANZEBE,Congo DR,DF,28,Burnley,4,4,360,0,0,5,0,4,10,4.0,7.0,5.0
+Pau CUBARSI,Spain,DF,19,Barcelona,8,8,750,0,0,14,7,0,20,0.0,8.0,4.0
+Dayot UPAMECANO,France,DF,27,Bayern Munich,7,7,616,0,0,4,6,6,28,1.0,7.0,4.0
+William SALIBA,France,DF,25,Arsenal,6,6,480,0,0,3,1,2,14,2.0,3.0,2.0
+Gustavo GOMEZ,Paraguay,DF,33,Palmeiras,5,5,480,0,0,0,0,2,21,2.0,0.0,1.0
