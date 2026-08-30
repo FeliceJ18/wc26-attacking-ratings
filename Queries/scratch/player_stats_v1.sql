@@ -1,5 +1,9 @@
 -- =====================================================================
--- 05_player_stats.sql  |  the player table
+-- player_stats_v1.sql  |  SUPERSEDED -- see 03_player_ratings.sql
+-- Kept for reference: it holds the shots-per-100-runs analysis, which the
+-- ratings table does not carry. Its population differs (344 rows: includes
+-- goalkeepers and the third-place playoff), so its numbers will NOT match
+-- the current model.
 -- =====================================================================
 -- One row per player, totals plus per-90 rates.
 --

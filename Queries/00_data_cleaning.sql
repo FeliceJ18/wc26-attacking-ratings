@@ -88,7 +88,9 @@ UPDATE passing_network_edges              SET to_player    = REPLACE(to_player, 
 -- fixture. Left alone deliberately: they are opaque keys, consistent across
 -- all tables, and renaming them touches 19 tables for no analytical gain.
 --
--- Backup taken as PlayerDB_before_uzb_fix.db before running.
+-- A backup was taken before running. The intermediate backups have since
+-- been deleted -- PlayerDB_original.db is the untouched source and is what
+-- these statements are written to run against.
 -- =====================================================================
 
 -- 1. players FIRST -- delete the 26 duplicates (UZB_ twins already exist)
@@ -179,6 +181,9 @@ WHERE match_id='2026-M096-SUI-COL' AND player_name LIKE '%LERMA%' AND subbed_off
 --   players .......................... 1251 -> 1248  (= external's 1248 exactly)
 --   PlayerStats rows ................. 1042 -> 1039  (= external's 1039 exactly)
 --   minutes .......................... 211556 -> 211488
+--     (later reduced to 211410 by the second-yellow dismissal handling in
+--      03_player_ratings.sql, which is where the two sources finally agree
+--      exactly. 211488 is the figure AT THIS STAGE, not the final total.)
 --   appearances / starts / goals ..... 3288 / 2288 / 294  UNCHANGED
 --   Lerma 480 -> 412, Ounahi 5->6 apps, Dembele 7->8 apps, Summerville 3->4 apps
 

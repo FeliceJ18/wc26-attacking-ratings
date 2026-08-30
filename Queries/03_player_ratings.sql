@@ -1,5 +1,5 @@
 -- =====================================================================
--- 06_player_ratings.sql  |  the two chart axes
+-- 03_player_ratings.sql  |  the two chart axes
 -- =====================================================================
 -- One row per outfield player with 270+ minutes (301 rows).
 --
@@ -190,7 +190,7 @@
 --   ball_progressions      shots +0.44 -- real, but Doku/Yamal/Vinicius top
 --       both this and take_ons. Including both double-counts dribblers.
 --   crosses_completed      assists +0.27 -- best raw assist link, but 143 of
---       303 players never cross, so it scores nearly half the population at
+--       301 players never cross, so it scores nearly half the population at
 --       zero and punishes central players for a job they do not have.
 --
 -- def_line_breaks sums the two/three/four-unit defensive-line columns (4124
@@ -221,7 +221,7 @@ WITH match_length AS (
 -- there is complete for all 104 matches, so assist rows for a single fixture
 -- would make assist the only 1-of-104 type, and the first person to
 -- COUNT(*) it would conclude the tournament had seven assists.
--- See Queries/07_manual_corrections.sql for the table and its provenance.
+-- See 04_manual_corrections.sql for the table and its provenance.
 totals AS (
     SELECT p.player_id, p.display_name, p.name_key,
            MIN(ma.team)                                          AS team,

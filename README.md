@@ -20,7 +20,7 @@ https://public.tableau.com/views/2026WorldCupAttackingRatings/AttackingDanger
 - USA breakout talents Tillman and Balogun reach similar ratings by opposite routes, one a passer, one a runner
 - Similarly we see our top rated players separated from the rest in their own attacking league, Messi & Mbappe, also with different profiles but elite output and generation broken down by how they did it
 
-## Method: matchLength.sql, 03_player_ratings.sql
+## Method: 03_player_ratings.sql
 Used data on 2026 World Cup acquired publicly through Kaggle (Listed in sources). Primary dataset including 21 CSV tables with over 95k rows. 
 - First task to use data points to calculate needed player appearances & minutes as well as match length for project. 
 - Calculated minutes based on match event and substitution data (minutes = minute_they_left − minute_they_entered)
@@ -29,7 +29,15 @@ Used data on 2026 World Cup acquired publicly through Kaggle (Listed in sources)
 - Validated data with secondary source after entity resolution
 - Used data to build queried table tracking relevant attacking player data, plotting on Tableau for visual findings
 
-## Data Quality: 00_data_cleaning.sql, 04_manual_corrections.sql
+Imported Primary & External CSVs, compared, validated
+Data cleaning sql to fix data errors and confirm validation
+Name key for entity resolution and to be able to use data from external
+Player match map to finalize unresolved entity resolution using blocking
+Manual corrections for decided exclusions and filters for model (Playoff match)
+Final Player Rating quiery & table
+
+
+## Data Quality: 00_data_cleaning.sql, 04_manual_corrections.sql qa/integrity_checks.sql
 - PDF ligature: "fi" stored as one character in 422 rows. Replaced in player names and knockout "final" matches.
 - Wrong country codes: Portugal v Uzbekistan was recorded under Ghana's code, splitting all 26 Uzbek players across two IDs and halving their totals
 - Split identities: three players had a second ID from a partial name. Verified by blocking team, match appearances, & minutes per player, which also proved Brazil's two Danilos were genuinely two players and must not be merged
@@ -44,6 +52,7 @@ Used data on 2026 World Cup acquired publicly through Kaggle (Listed in sources)
 - Second source had names only, no IDs, and the two spelled names differently whether in translation, accents, or nicknames 
 - Rule-based key (accents, punctuation, spacing) got 969 of 1,039
 - The last 70 needed judgment; matched on team + appearances + minutes rather than name, which is the only thing that resolves MOHAMMAD ABUZRAIQ = Sharara
+- Difined Parameters and Blocks to run agent for entity resolution and table updating: 00_data_cleaning 01_unmatched_pairs 02_player_match_map build_name_key
 
 ## Limitations:
 - No chance-creation data; model used defensive line breaks, the final ball, correlating +0.25 with assists

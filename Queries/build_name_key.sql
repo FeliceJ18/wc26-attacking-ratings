@@ -28,6 +28,19 @@
 -- name parts, transliteration variants, name-order swaps.
 -- =====================================================================
 
+-- ---------- create the column ----------
+-- RUN THESE TWO ONCE, on a database that does not yet have name_key.
+-- SQLite has no ADD COLUMN IF NOT EXISTS, so re-running them on a database
+-- that already has the column raises "duplicate column name: name_key".
+-- That error is harmless -- skip these two lines and run the UPDATEs below,
+-- which rebuild the values from scratch and are safe to repeat.
+--
+-- players_external must exist first: it is the second Kaggle dataset
+-- (playersdata.csv) imported via DB Browser and renamed. See the README.
+
+ALTER TABLE players          ADD COLUMN name_key TEXT;
+ALTER TABLE players_external ADD COLUMN name_key TEXT;
+
 -- ---------- PlayerDB side (already plain ASCII, so no accent step) ----------
 UPDATE players SET name_key = UPPER(display_name);
 UPDATE players SET name_key = REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(name_key,'''',''),'-',''),'.',''),' ',''),',','');

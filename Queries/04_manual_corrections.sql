@@ -1,5 +1,5 @@
 -- =====================================================================
--- 07_manual_corrections.sql  |  manual_playoff_assists
+-- 04_manual_corrections.sql  |  manual_playoff_assists
 -- =====================================================================
 -- THE ONLY DATA IN THIS PROJECT NOT DERIVED FROM A SOURCE TABLE.
 -- Everything else can be reproduced by re-running SQL against PlayerDB.db.
@@ -9,7 +9,7 @@
 -- =====================================================================
 -- WHY IT EXISTS
 -- =====================================================================
--- 06_player_ratings.sql excludes the third-place playoff (2026-M103-FRA-ENG,
+-- 03_player_ratings.sql excludes the third-place playoff (2026-M103-FRA-ENG,
 -- France 4-6 England). That match produced 10 goals against a tournament
 -- average of 2.96 -- 3.4x the normal rate -- and a playoff generates data by
 -- a different process: no trophy, rotated squads, lower intensity.
@@ -76,7 +76,7 @@
 -- becomes MICHAL. That is correct and consistent on both sides of the join.
 --
 -- Only 4 of these 6 players clear the 270-minute threshold in
--- 06_player_ratings.sql. Rashford (176 min) and Eze (130 min) fall outside
+-- 03_player_ratings.sql. Rashford (176 min) and Eze (130 min) fall outside
 -- the population, so 5 of the 7 assists are actually subtracted there. The
 -- other two are kept so the table stays a complete record of the match.
 -- =====================================================================
@@ -116,7 +116,7 @@ INSERT INTO manual_playoff_assists VALUES
 --   LEFT JOIN players p ON p.player_id = m.player_id
 --   WHERE p.player_id IS NULL;      -- must return 0 rows
 --
--- EFFECT on 06_player_ratings.sql:
+-- EFFECT on 03_player_ratings.sql:
 --   Michael OLISE     7 -> 5 assists    rank  1 -> 6
 --   Kylian MBAPPE     4 -> 3            rank  1 (unchanged)
 --   Declan RICE       2 -> 1            rank 117
