@@ -1,7 +1,7 @@
 # 2026 World Cup Attacking Ratings Project
 By John Felice
 
-https://public.tableau.com/views/2026WorldCupAttackingRatings/AttackingDanger
+**[View the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/john.felice/viz/2026WorldCupAttackingRatings/RatingDashboard)**
 
 ## Goal: Use data to build a model illustrating most dangerous attacking players at 2026 World Cup.
 - Illustrate: Player profiles, positions, & attacking impact based on generation & output stats

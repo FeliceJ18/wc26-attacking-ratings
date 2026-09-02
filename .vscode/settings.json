@@ -1,0 +1,17 @@
+{
+  "sqltools.connections": [
+    {
+      "name": "WC26 PlayerDB",
+      "driver": "SQLite",
+      "database": "c:/Users/felic/Documents/FelicDocs/WC26_Stats_Proj/PlayerDB.db",
+      "previewLimit": 200
+    },
+    {
+      "name": "WC26 PlayerDB (original, reference only)",
+      "driver": "SQLite",
+      "database": "c:/Users/felic/Documents/FelicDocs/WC26_Stats_Proj/PlayerDB_original.db",
+      "previewLimit": 200
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}
