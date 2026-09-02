@@ -34,7 +34,7 @@ Data cleaning sql to fix data errors and confirm validation
 Name key for entity resolution and to be able to use data from external
 Player match map to finalize unresolved entity resolution using blocking
 Manual corrections for decided exclusions and filters for model (Playoff match)
-Final Player Rating quiery & table
+Final Player Rating query & table
 
 
 ## Data Quality: 00_data_cleaning.sql, 04_manual_corrections.sql qa/integrity_checks.sql
@@ -52,7 +52,7 @@ Final Player Rating quiery & table
 - Second source had names only, no IDs, and the two spelled names differently whether in translation, accents, or nicknames 
 - Rule-based key (accents, punctuation, spacing) got 969 of 1,039
 - The last 70 needed judgment; matched on team + appearances + minutes rather than name, which is the only thing that resolves MOHAMMAD ABUZRAIQ = Sharara
-- Difined Parameters and Blocks to run agent for entity resolution and table updating: 00_data_cleaning 01_unmatched_pairs 02_player_match_map build_name_key
+- Defined Parameters and Blocks to run agent for entity resolution and table updating: 00_data_cleaning 01_unmatched_pairs 02_player_match_map build_name_key
 
 ## Limitations:
 - No chance-creation data; model used defensive line breaks, the final ball, correlating +0.25 with assists
