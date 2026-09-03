@@ -294,3 +294,50 @@ FROM expected x
 LEFT JOIN player_match_map m ON m.player_id = x.player_id
 WHERE m.external_name_key IS NULL
    OR m.external_name_key <> x.external_name_key;
+
+
+-- ---------------------------------------------------------------------
+-- 13. EVERY SQUAD HOLDS EXACTLY 26 PLAYERS
+-- ---------------------------------------------------------------------
+-- The 2026 World Cup is 48 teams naming 26 players each, so the players
+-- table must hold exactly 26 rows per team_id. This is the only check in
+-- this file that tests the data against the COMPETITION'S RULES rather
+-- than against the other source or against itself -- it needs no external
+-- file and could have been written before any data was loaded.
+--
+-- WOULD HAVE FOUND BOTH ID BUGS ON DAY ONE. Against the raw import
+-- (PlayerDB_original.db, 1277 players) it returns exactly four rows, and
+-- they name the two defects and the precise squads involved:
+--     GHA  52   <- FIX 2: 26 Uzbek players duplicated under Ghana's code
+--     FRA  27   <- FIX 3: FRA_dembele   split from FRA_ousmane_dembele
+--     MAR  27   <- FIX 3: MAR_ounahi    split from MAR_azzedine_ounahi
+--     NED  27   <- FIX 3: NED_crysencio split from NED_crysencio_summerville
+--
+-- 1277 raw  -  26 duplicates  -  3 split identities  =  1248  =  48 x 26.
+-- Both sources independently land on 1248, and neither was tuned to it.
+--
+-- Nothing else in the suite tests total population. Checks 4-7 compare the
+-- two sources, so a player duplicated identically in BOTH would pass them
+-- all; this check would not.
+-- ---------------------------------------------------------------------
+SELECT team_id, COUNT(*) AS squad_size
+FROM players
+GROUP BY team_id
+HAVING COUNT(*) <> 26;
+
+
+-- ---------------------------------------------------------------------
+-- 14. THE TOURNAMENT HAS 48 TEAMS
+-- ---------------------------------------------------------------------
+-- The companion to check 13, which counts within each squad but cannot
+-- see a squad that is absent entirely -- GROUP BY only returns groups that
+-- exist. Together the two pin the population at exactly 48 x 26 = 1248.
+--
+-- This one passed even on the raw import: the Ghana bug duplicated players
+-- INTO an existing team_id rather than inventing a new one, so the team
+-- count stayed correct while the player count was wrong by 29. That is
+-- precisely why both checks are needed and not just one.
+-- ---------------------------------------------------------------------
+SELECT COUNT(DISTINCT team_id) AS teams
+FROM players
+HAVING COUNT(DISTINCT team_id) <> 48;

@@ -52,7 +52,7 @@ Final Player Rating query & table
 - Second source had names only, no IDs, and the two spelled names differently whether in translation, accents, or nicknames 
 - Rule-based key (accents, punctuation, spacing) got 969 of 1,039
 - The last 70 needed judgment; matched on team + appearances + minutes rather than name, which is the only thing that resolves MOHAMMAD ABUZRAIQ = Sharara
-- Defined Parameters and Blocks to run agent for entity resolution and table updating: 00_data_cleaning 01_unmatched_pairs 02_player_match_map build_name_key
+- Defined Parameters and Blocks to run agent (Claude Code) for entity resolution and table updating: 00_data_cleaning 01_unmatched_pairs 02_player_match_map build_name_key
 
 ## Limitations:
 - No chance-creation data; model used defensive line breaks, the final ball, correlating +0.25 with assists

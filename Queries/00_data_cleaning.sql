@@ -124,6 +124,7 @@ WHERE match_id='2026-M047-POR-GHA' AND team_name='Uzbekistan' AND team_id='GHA';
 -- VERIFY (all confirmed after running):
 --   GHA_ ids on Uzbek rows ......... 0      (was 26)
 --   genuine Ghana ids intact ....... 26     (untouched)
+--   players ....................... 1251   (was 1277 -- 26 duplicates gone)
 --   Uzbekistan players who played .. 23     (was 37)
 --   team/team_id contradictions .... 0
 --   appearances / starts / goals / minutes UNCHANGED: 3288 / 2288 / 294 / 211556
